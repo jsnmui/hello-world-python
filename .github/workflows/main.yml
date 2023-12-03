@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Deploy code to Lambda
-      uses: kohrongying/py-lambda-action@v1.0.2
+      uses: jsnmui/py-lambda-action@v1.0.2
       with:
        
         lambda_function_name: 'hello-world-python'
